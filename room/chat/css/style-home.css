@@ -1,0 +1,128 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background:#efefef;
+}
+p{
+  font-family:sans-serif;
+}
+header{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background:#fada3e;
+}
+header .heading{
+  margin:20px;
+}
+header .heading h2{
+  font-family:sans-serif;
+  font-size:2em;
+  font-weight:700;
+}
+section{
+  padding:40px 100px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+section .login{
+  width:400px;
+  border:1px solid grey;
+  padding:10px;
+  border-radius:10px;
+  background:lightyellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+section .login input{
+  border:none;
+  margin:none;
+  border-radius:10px;
+  margin-top:20px;
+  padding:10px 5px;
+  width:100%;
+  background:transparent;
+  border-bottom:1px solid grey;
+  font-size:1em;
+  color:#111;
+  font-weight: 500;
+}
+section .login input:focus{
+  border:1px solid grey;
+  transition:1s;
+}
+section .login input[type = "submit"]{
+  width:100px;
+  background:#ff1057;
+  color:#fff;
+  letter-spacing:2px;
+  padding:5px;
+  font-size:1.2em;
+  border:none;
+  margin:none;
+  border-bottom:1px solid grey;
+  border-radius:5px;
+}
+section .login  a{
+  text-decoration:none;
+}
+section .register{
+  width:400px;
+  border:1px solid grey;
+  padding:10px;
+  border-radius:10px;
+  background:lightyellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+section .register input{
+  border:none;
+  margin:none;
+  border-radius:10px;
+  margin-top:20px;
+  padding:10px 5px;
+  width:100%;
+  background:transparent;
+  border-bottom:1px solid grey;
+  font-size:1em;
+  color:#111;
+  font-weight: 500;
+}
+section .register input:focus{
+  border:1px solid grey;
+  transition:1s;
+}
+section .register input[type = "submit"]{
+  width:100px;
+  background:#ff1057;
+  color:#fff;
+  letter-spacing:2px;
+  padding:5px;
+  font-size:1.2em;
+  border:none;
+  margin:none;
+  border-bottom:1px solid grey;
+  border-radius:5px;
+}
+section .register  a{
+  text-decoration:none;
+}
+@media screen and (max-width:1000px){
+  header .heading h2{
+    font-size:1em;
+  }
+  section{
+    padding: 0;
+    margin-top:20px;
+}
+}
